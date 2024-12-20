@@ -1,6 +1,6 @@
 {
   "name": "momentum-modal",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "scripts": {
     "dev": "vite",
     "build": "npm run prettier && vite build && vue-tsc --declaration --emitDeclarationOnly",
@@ -36,7 +36,7 @@
     }
   },
   "peerDependencies": {
-    "@inertiajs/vue3": "^1.0.0",
+    "@inertiajs/vue3": "^1.0.0 || ^2.0.0",
     "axios": "^1.2.0",
     "vue": "^3.x"
   },
